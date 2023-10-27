@@ -1,0 +1,4 @@
+User: hello
+Assistant: Hello! How can I assist you today in regards to real estate investment and negotiation?
+User: hello
+Assistant: Hello! How can I assist you today in regards to real estate investment and negotiation?
