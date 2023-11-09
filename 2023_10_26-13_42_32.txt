@@ -1,2 +1,0 @@
-User: hello
-Assistant: Hello! How can I assist you today regarding real estate investment or negotiation?
