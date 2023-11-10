@@ -1,3 +1,9 @@
+---
+title: chatbot
+app_file: chatadmin.py
+sdk: gradio
+sdk_version: 3.50.2
+---
 # Chatbot with DynamoDB 
 
 This project is a chatbot implemented in Python using the OpenAI API and Gradio for the user interface. 
