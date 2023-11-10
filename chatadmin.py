@@ -3,15 +3,15 @@ import gradio
 import boto3
 
 # Configure AWS credentials
-aws_access_key_id = "AKIAW4FKREA7L6Z6VKFY"
-aws_secret_access_key = "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"
+aws_access_key_id = # access_key
+aws_secret_access_key = #secret_access_key
 aws_region = "us-east-1"
 
 # Create a DynamoDB client
 dynamodb = boto3.client('dynamodb', region_name=aws_region, aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
 
 # OpenAI API key
-openai.api_key = "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"
+openai.api_key = # open AI API KEY 
 
 # Create a timestamp for the chat log file
 # Calculate MD5 hash of the timestamp
@@ -65,7 +65,7 @@ def CustomChatGPT(user_input):
 
             # Save the new question and response to the database
             save_response(question_area, admin_response)
-            
+
             return f"Response for {question_area} updated."
         
         else:
